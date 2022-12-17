@@ -1,0 +1,16 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+achaumedia.vn	TRUE	/wp-content/plugins	FALSE	1999999999	wordpress_29b16ecc4fddf8dc3a97ef89f9a2e592	%20
+achaumedia.vn	TRUE	/wp-content/plugins	FALSE	1999999999	wordpress_sec_29b16ecc4fddf8dc3a97ef89f9a2e592	%20
+achaumedia.vn	TRUE	/wp-admin	FALSE	1999999999	wordpress_29b16ecc4fddf8dc3a97ef89f9a2e592	%20
+achaumedia.vn	TRUE	/wp-admin	FALSE	1999999999	wordpress_sec_29b16ecc4fddf8dc3a97ef89f9a2e592	%20
+achaumedia.vn	TRUE	/	FALSE	1999999999	wordpress_test_cookie	WP%20Cookie%20check
+achaumedia.vn	TRUE	/	FALSE	1999999999	wordpress_logged_in_29b16ecc4fddf8dc3a97ef89f9a2e592	%20
+achaumedia.vn	TRUE	/	FALSE	1999999999	wp-settings-0	%20
+achaumedia.vn	TRUE	/	FALSE	1999999999	wp-settings-time-0	%20
+achaumedia.vn	TRUE	/	FALSE	1999999999	wordpress_29b16ecc4fddf8dc3a97ef89f9a2e592	%20
+achaumedia.vn	TRUE	/	FALSE	1999999999	wordpress_sec_29b16ecc4fddf8dc3a97ef89f9a2e592	%20
+achaumedia.vn	TRUE	/	FALSE	1999999999	wordpressuser_29b16ecc4fddf8dc3a97ef89f9a2e592	%20
+achaumedia.vn	TRUE	/	FALSE	1999999999	wordpresspass_29b16ecc4fddf8dc3a97ef89f9a2e592	%20
+achaumedia.vn	TRUE	/	FALSE	1999999999	wp-postpass_29b16ecc4fddf8dc3a97ef89f9a2e592	%20
+
