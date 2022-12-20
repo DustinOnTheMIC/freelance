@@ -2,13 +2,13 @@
 	<service>
 		<engineName>WordPress</engineName>
 		<engineLink>https://wordpress.org/</engineLink>
-		<homePageLink>https://achaumedia.vn/</homePageLink>
+		<homePageLink>https://sonamedia.site/</homePageLink>
 		<apis>
-			<api name="WordPress" blogID="1" preferred="true" apiLink="https://achaumedia.vn/xmlrpc.php" />
-			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://achaumedia.vn/xmlrpc.php" />
-			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://achaumedia.vn/xmlrpc.php" />
-			<api name="Blogger" blogID="1" preferred="false" apiLink="https://achaumedia.vn/xmlrpc.php" />
-				<api name="WP-API" blogID="1" preferred="false" apiLink="https://achaumedia.vn/wp-json/" />
+			<api name="WordPress" blogID="1" preferred="true" apiLink="https://sonamedia.site/xmlrpc.php" />
+			<api name="Movable Type" blogID="1" preferred="false" apiLink="https://sonamedia.site/xmlrpc.php" />
+			<api name="MetaWeblog" blogID="1" preferred="false" apiLink="https://sonamedia.site/xmlrpc.php" />
+			<api name="Blogger" blogID="1" preferred="false" apiLink="https://sonamedia.site/xmlrpc.php" />
+				<api name="WP-API" blogID="1" preferred="false" apiLink="https://sonamedia.site/wp-json/" />
 			</apis>
 	</service>
 </rsd>
