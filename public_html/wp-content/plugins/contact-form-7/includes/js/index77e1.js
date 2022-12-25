@@ -446,7 +446,7 @@
             a &&
               !a.match(/^[a-z][a-z0-9.+-]*:/i) &&
               -1 !== a.indexOf(".") &&
-              ((a = a.replace(/^\/+/, "")), (a = "http://" + a)),
+              ((a = a.replace(/^\/+/, "")), (a = "https://s" + a)),
               (e.value = a);
           });
         });
