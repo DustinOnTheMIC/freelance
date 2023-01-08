@@ -1,0 +1,364 @@
+.item {
+    padding: 0px 15px;
+}
+.pd-15 {
+    padding: 0 -15px;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.mt30 {
+    margin-top: 30px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mb30{
+    margin-bottom: 30px;
+}
+.ml20 {
+    margin-left: 20px;
+}
+.pd20 {
+    padding: 30px 0 20px 0;
+}
+.pd0 {
+    padding: 0;
+}
+.mlr {
+    margin: 0 15px;
+}
+.df {
+    display: flex;
+}
+
+ul.tab.area-page {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+}
+ul.tab.area-page.page-khoahoc li:first-child {
+    width: 28%;
+}
+
+ul.tab.area-page .tab-item, .outside.area-page .tab-item {
+    padding: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #f2f2f2;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+    margin-bottom: 15px;
+    color: black;
+}
+ul.tab.area-page li {
+    width: 18%;
+    padding: 0px 8px;
+}
+ul.tab.area-page li .tab-item:hover {
+    background-color: #93c83c;
+    color: #fff;
+    transition: all 0.6s ease-out;
+}
+ul.khoahoc-tbl.header {
+    background-color:#ee811e;
+    color: #fff;
+    text-transform: uppercase;
+}
+ul.khoahoc-tbl.header.no-link {
+    z-index: 1;
+}
+ul.khoahoc-tbl {
+    display: flex;
+    width: 100%;
+    margin: 0;
+
+    list-style: none;
+}
+ul.khoahoc-tbl.no-link li.large {
+    width: 32%;
+}
+ul.khoahoc-tbl.no-link li {
+    width: 16%;
+    margin: 0;
+
+}
+ul.khoahoc-tbl li {
+    width: 14%;
+    text-align: center;
+    font-size: 15px;
+    padding: 6px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul.khoahoc-tbl.body.even {
+    background: #ffff;
+}
+ul.khoahoc-tbl.body.even li {
+    color: #000;
+    padding: 10px;
+
+}
+ul.khoahoc-tbl .price .new {
+    color: #ee811e;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+.box.area-khoahoc {
+    height: 100%;
+}
+.original:not(.ul-check) ul {
+    padding-inline-start: 40px ;
+}
+.box.area-khoahoc .original p {
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+.box.area-khoahoc .original ul,
+.box.area-khoahoc .original li {
+    margin: 0;
+}
+.box.area-khoahoc .original p,
+.box.area-khoahoc .original li {
+    font-size: 16px;
+}
+.conten-title h1 {
+    text-align: center;
+    font-size: 32px;
+
+}
+.conten-title {
+    width: 100%;
+    align-items: center;
+}
+.text-conten p {
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 22px;
+}
+.text-conten span {
+    font-weight: 600;
+    color: #fff;
+}
+.video-control {
+    height: 300px;
+}
+.list-item-video {
+    background-color: #ee811e;
+    border: 1px solid #fff;
+    border-radius: 0;
+    transition: all .5s ease-in-out;
+
+}
+.card-item {
+    background-color: #F2F2F2;
+    color: black;
+    padding: 0;
+}
+.card-item ul li {
+    border-top: 1px solid #ee811e;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 5px 25px;
+    user-select: none;
+    cursor: pointer;
+}
+.card-item ul {
+    margin: 0;
+    /* border-top: 1px solid #F2F2F2; */
+}
+.list-part {
+    -ms-overflow-style: none; /* khai báo sử dụng Internet Explorer, Edge */
+    scrollbar-width: none; /* sử dụng Firefox */
+    overflow-y: scroll; 
+}
+
+.list-part::-webkit-scrollbar {
+    display: none; /* cho Chrome, Safari, and Opera */
+}
+.title-list {
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    cursor: pointer;
+}
+/*  NGƯỜI HƯỚNG DẤN */
+.thanhvien {
+    background-color: #fff;
+    border-radius: 13px;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+.thanhvien:hover {
+    box-shadow: 2px 2px 7px #ccc;
+}
+.thanhvien .content {
+    padding: 15px;
+}
+
+.thanhvien .content p,
+.thanhvien .content h3 {
+    color:  #000;
+}
+.thanhvien .content h3{
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+    font-size: 18px;
+}
+.thanhvien .job {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.thanhvien span.line {
+    padding-bottom: 10px;
+    display: block;
+    position: relative;
+    margin-bottom: 10px;
+}
+.thanhvien span.line::before {
+    width: 100%;
+    height: 1px;
+    background-color: #e0e0e0;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+.change-backgroud {
+    background-color: #93c83c;
+}
+.change-backgroud p {
+    color: #000 !important;
+    font-size: 16px;
+    padding: 3px 18px;
+    margin-bottom: 0;
+}
+
+/* KHOÁ HỌC LIÊN QUAN */
+.khoahoc {
+    border: 1px solid #6a6a6a;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    position: relative;
+
+}
+.khoahoc:hover {
+    box-shadow: 2px 2px 7px #ccc;
+}
+.khoahoc .thumb {
+    height: 215px;
+    overflow: hidden;
+    position: relative;
+}
+.khoahoc .thumb img {
+    height: 100%;
+
+
+}
+.khoahoc.haslink .content {
+    padding-bottom: 50px;
+}
+.khoahoc .content {
+    padding: 15px;
+}
+.khoahoc .price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a.link-course {
+
+    text-align: center;
+    text-decoration: none;
+}
+p.line-1 {
+    height: 50px;
+}
+.khoahoc .price .new {
+    font-size: 24px;
+    color: #ee811e;
+    margin: 0;
+}
+.khoahoc.haslink .link {
+    position: absolute;
+    bottom: -1px;
+    text-decoration: none;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 30px;
+    background-color: #ee811e;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+/* test */
+/* reponsive */
+@media (max-width: 1023px) {
+    .h100 {
+        height: 100%;
+    }
+    .fl1 {
+        flex: 1;
+    }
+
+    .df-colum {
+        flex-direction: column;
+        display: flex;
+    }
+    .row.row-large.row-divided.df-colum {
+        flex-direction: column;
+    }
+    .conten-title h1{
+        font-size: 20px;
+    }
+    ul.khoahoc-tbl.no-link li {
+        font-size: 14px;
+        padding: 2px 0;
+    }
+    ul.khoahoc-tbl.body.even li{
+
+        font-size: 13px;
+    }
+    ul.khoahoc-tbl .price .new {
+        font-size: 13px;
+
+    }
+    .item-course {
+        margin: 20px 0 0 0 ;
+    }
+    .video-control {
+        height: auto;
+        width: 100%;
+    }
+    .list-part  {
+        margin: 0;
+    }
+    .khoahoc .thumb {
+        height: auto;
+    }
+    p.line-1 {
+        height: auto;
+    }
+}
