@@ -1,0 +1,143 @@
+.item {
+    padding: 0px 15px;
+}
+.pd-15 {
+    padding: 0 -15px;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.mt30 {
+    margin-top: 30px;
+}
+.mb20{
+    margin-bottom: 20px;
+}
+.mb30{
+    margin-bottom: 30px;
+}
+.ml20 {
+    margin-left: 20px;
+}
+.pd20 {
+    padding: 30px 0 20px 0;
+}
+.pd0 {
+    padding: 0;
+}
+.mlr {
+    margin: 0 15px;
+}
+.df {
+    display: flex;
+}
+
+.khoahoc-tbl {
+    display: flex;
+    list-style: none;
+    color: #000;
+    margin: 0;
+    width: 100%;
+}
+ul.khoahoc-tbl.header {
+    background-color: #ee811e;
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 1;
+
+}
+ul.khoahoc-tbl.body.odd {
+    background-color: #f2f2f2;
+}
+ul.khoahoc-tbl.body.even {
+    background: #ffff;
+}
+ul.khoahoc-tbl li {
+    width: 14%;
+    text-align: center;
+    font-size: 13px;
+    padding: 6px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+ul.khoahoc-tbl li.large {
+    width: 28%;
+}
+ul.khoahoc-tbl li.medium {
+    width: 16%;
+}
+ul.khoahoc-tbl .price .new {
+    color: #ee811e;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0;
+}
+ul.khoahoc-tbl .link {
+    color: #93c83c;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 600;
+}
+ul.khoahoc-tbl .link:hover {
+    color: #93c83c;
+}
+
+
+/* test */
+/* reponsive */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .row.row-large.row-divided.df-colum {
+        flex-direction: column;
+        
+    }
+
+}
+@media (max-width: 739px) {
+    .h100 {
+        height: 100%;
+    }
+    .fl1 {
+        flex: 1;
+    }
+
+    .df-colum {
+        flex-direction: column;
+    }
+    .row.row-large.row-divided.df-colum {
+        flex-direction: column;
+    }
+    .conten-title h1{
+        font-size: 20px;
+    }
+    ul.khoahoc-tbl.no-link li {
+        font-size: 14px;
+        padding: 2px 0;
+    }
+    ul.khoahoc-tbl.body.even li{
+
+        font-size: 13px;
+    }
+    ul.khoahoc-tbl .price .new {
+        font-size: 13px;
+
+    }
+    .item-course {
+        margin: 20px 0 0 0 ;
+    }
+    .video-control {
+        height: auto;
+        width: 100%;
+    }
+    .list-part  {
+        margin: 0;
+    }
+    .khoahoc .thumb {
+        height: auto;
+    }
+    p.line-1 {
+        height: auto;
+    }
+}

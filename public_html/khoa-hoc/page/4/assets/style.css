@@ -315,7 +315,57 @@ p.line-1 {
 
 /* test */
 /* reponsive */
-@media (max-width: 1023px) {
+/* table */
+.conten-title.df {
+    justify-content: center;
+}
+.register-course {
+    margin: 0;
+    padding: 15px 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+    border-radius: 5px;
+    background-color: #b90000;
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+    .row.row-large.row-divided.df-colum {
+        flex-direction: column;
+    }
+    .large-12.mt30.df.df-colum {
+        flex-direction: column;
+    }
+    .large-4 {
+        margin-bottom: 30px;
+    }
+    .large-8.ml20.item-course {
+        margin: 0;
+    }
+    .large-7 {
+        width: 60%;
+    }
+    .large-12.df {
+        width: inherit;
+    }
+    .large-4.mlr.item-course {
+        width: 30%;
+    }
+    .ml0 {
+        margin-left: 0;
+    }
+    .list-part {
+        width: inherit;
+    }
+    .khoahoc.haslink .link {
+        font-size: 14px;
+    }
+    .large-12 {
+        flex: 1;
+    }
+
+}
+@media (max-width: 739px) {
     .h100 {
         height: 100%;
     }

@@ -242,7 +242,7 @@ ul.khoahoc-tbl.body.even {
 ul.khoahoc-tbl li {
     width: 14%;
     text-align: center;
-    font-size: 16px;
+    font-size: 13px;
     padding: 6px 10px;
     display: flex;
     justify-content: center;
@@ -257,7 +257,7 @@ ul.khoahoc-tbl li.medium {
 }
 ul.khoahoc-tbl .price .new {
     color: #ee811e;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     margin: 0;
@@ -371,11 +371,45 @@ ul.khoahoc-tbl .link:hover {
     top: 4px;
     right: -18px;
 }
-@media (max-width: 849px) {
+@media (min-width: 740px) and (max-width: 1023px) {
+    .row.row-large.row-divided.df-colum {
+        flex-direction: column;
+        
+    }
+    .hideul {
+        display: none;
+    }
+    .detail-post {
+        display: none; 
+    }
+    .display-unnone {
+        display: block;
+
+    }
+    .box-text.text-left {
+        padding-bottom: 0;
+        overflow: hidden;
+    }
+
+}
+@media (max-width: 739px) {
+    ul.khoahoc-tbl li {
+        font-size: 10px;
+    }
+    ul.khoahoc-tbl .price .new {
+        font-size: 10px;
+    }
+    ul.khoahoc-tbl .link {
+        font-size: 12px;
+    }
     .df-colum {
         flex-direction: column;
     }
     .row.row-large.row-divided.df-colum {
         flex-direction: column;
+    }
+    .display-unnone {
+        display: block;
+
     }
 }
